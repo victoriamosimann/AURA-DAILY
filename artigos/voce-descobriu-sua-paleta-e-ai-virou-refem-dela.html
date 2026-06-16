@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A análise de coloração pessoal deveria expandir seu guarda-roupa — não criar uma nova prisão.
+
+---">
+  <title>Você descobriu sua paleta. E aí virou refém dela. — The Cool Edit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <style>
+    :root{--white:#FFFFFF;--black:#0A0A0A;--burg:#390303;--burg-hi:#5c0808;--gray1:#F2F2F2;--gray2:#E0E0E0;--gray3:#9A9A9A;--gray4:#5A5A5A;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif;--max:1360px}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:var(--sans);background:var(--white);color:var(--black);-webkit-font-smoothing:antialiased}
+    img{max-width:100%;display:block}a{color:inherit;text-decoration:none}
+    .ticker{background:var(--black);color:var(--white);padding:.4rem 0;overflow:hidden;font-size:.56rem;letter-spacing:.2em;text-transform:uppercase}
+    .ticker-track{display:flex;width:max-content;animation:tick 28s linear infinite}
+    .ticker-track span{white-space:nowrap;padding-right:4rem}
+    .ticker-track .sep{color:var(--burg)}
+    @keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+    .site-header{background:var(--white);border-bottom:1px solid var(--black);position:sticky;top:0;z-index:300}
+    .header-main{max-width:var(--max);margin:0 auto;padding:0 2rem;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:68px}
+    .nav-l{display:flex;gap:2rem}.nav-r{display:flex;gap:2rem;align-items:center;justify-content:flex-end}
+    .nav-l a,.nav-r a{font-size:.58rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--gray4);transition:color .2s}
+    .nav-l a:hover,.nav-r a:hover{color:var(--burg)}
+    .logo{font-family:var(--serif);font-weight:900;font-size:1.9rem;letter-spacing:-.02em;color:var(--black);text-align:center;line-height:1}
+    .logo em{font-style:italic;color:var(--burg)}
+    .cta-pill{background:var(--burg);color:var(--white)!important;padding:.45rem 1.2rem;font-size:.56rem!important;letter-spacing:.14em!important;transition:background .2s}
+    .cta-pill:hover{background:var(--burg-hi)!important}
+    .artigo-wrap{max-width:740px;margin:0 auto;padding:3rem 2rem 5rem}
+    .artigo-cat{font-size:.52rem;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--burg);margin-bottom:1.2rem}
+    .artigo-titulo{font-family:var(--serif);font-weight:900;font-size:clamp(2rem,4vw,3.2rem);line-height:1.05;letter-spacing:-.02em;color:var(--black);margin-bottom:1.2rem}
+    .artigo-sub{font-size:1.05rem;line-height:1.7;color:var(--gray4);border-left:2px solid var(--burg);padding-left:1rem;margin-bottom:1.5rem}
+    .artigo-meta{font-size:.52rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gray3);padding-bottom:2rem;border-bottom:1px solid var(--gray2);margin-bottom:2.5rem}
+    .artigo-body p{font-size:1rem;line-height:1.85;color:var(--gray4);margin-bottom:1.5rem}
+    .artigo-body h2{font-family:var(--serif);font-weight:700;font-size:1.5rem;color:var(--black);margin:2.5rem 0 1rem;line-height:1.2}
+    .artigo-body blockquote{font-family:var(--serif);font-style:italic;font-size:1.25rem;line-height:1.55;color:var(--black);border-left:3px solid var(--burg);padding-left:1.5rem;margin:2rem 0}
+    .artigo-body strong{color:var(--black);font-weight:500}
+    .nl-artigo{background:var(--black);padding:4rem 2rem;text-align:center}
+    .nl-badge{display:inline-block;border:1px solid var(--burg);color:var(--burg);font-size:.5rem;font-weight:500;letter-spacing:.22em;text-transform:uppercase;padding:.3rem .9rem;margin-bottom:1.2rem}
+    .nl-artigo h2{font-family:var(--serif);font-weight:900;font-size:2rem;color:var(--white);margin-bottom:.8rem}
+    .nl-artigo h2 em{font-style:italic;color:var(--burg)}
+    .nl-artigo p{font-size:.86rem;color:var(--gray3);margin-bottom:2rem}
+    .nl-form{display:flex;border:1px solid rgba(255,255,255,.15);max-width:400px;margin:0 auto}
+    .nl-form input{flex:1;background:transparent;border:none;padding:.9rem 1rem;font-family:var(--sans);font-size:.82rem;color:var(--white);outline:none}
+    .nl-form input::placeholder{color:rgba(255,255,255,.25)}
+    .nl-form button{background:var(--burg);color:var(--white);border:none;padding:.9rem 1.3rem;font-family:var(--sans);font-size:.56rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;white-space:nowrap}
+    footer{background:var(--black);border-top:1px solid rgba(255,255,255,.08);padding:2rem;text-align:center}
+    .footer-logo{font-family:var(--serif);font-weight:900;font-size:1.4rem;color:var(--white);margin-bottom:.5rem}
+    .footer-logo em{font-style:italic;color:var(--burg)}
+    .footer-copy{font-size:.56rem;color:rgba(255,255,255,.2);letter-spacing:.06em}
+  </style>
+</head>
+<body>
+
+<div class="ticker">
+  <div class="ticker-track">
+    <span>Moda <span class="sep">✦</span> Beleza <span class="sep">✦</span> Tendências <span class="sep">✦</span> Coloração Pessoal <span class="sep">✦</span> The Cool Edit <span class="sep">✦</span>&nbsp;</span>
+    <span>Moda <span class="sep">✦</span> Beleza <span class="sep">✦</span> Tendências <span class="sep">✦</span> Coloração Pessoal <span class="sep">✦</span> The Cool Edit <span class="sep">✦</span>&nbsp;</span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="header-main">
+    <nav class="nav-l">
+      <a href="../index.html">Moda</a>
+      <a href="../index.html">Beleza</a>
+      <a href="../index.html">Tendências</a>
+    </nav>
+    <a href="../index.html" class="logo">The Cool <em>Edit</em></a>
+    <nav class="nav-r">
+      <a href="../index.html">Coloração</a>
+      <a href="../index.html#newsletter" class="cta-pill">A-List</a>
+    </nav>
+  </div>
+</header>
+
+<div class="artigo-wrap">
+  <div class="artigo-cat">coloracao</div>
+  <h1 class="artigo-titulo">Você descobriu sua paleta. E aí virou refém dela.</h1>
+  <p class="artigo-sub">A análise de coloração pessoal deveria expandir seu guarda-roupa — não criar uma nova prisão.
+
+---</p>
+  <div class="artigo-meta">16 de junho de 2026 · 3 min de leitura</div>
+  <div class="artigo-body">
+    <p>Existe um momento muito específico depois de descobrir sua paleta de cores. Você fecha o relatório, abre o guarda-roupa e começa a eliminar tudo que "não é sua estação". Peças que você ama. Peças que funcionavam. Fora.</p>
+
+<p>Esse é o erro.</p>
+
+<h2>A paleta virou dogma</h2>
+
+<p>A análise de coloração pessoal é uma ferramenta. Não uma sentença. Mas a forma como o assunto é consumido hoje — em reels de 60 segundos, em planilhas de "use isso, evite aquilo" — transforma um sistema de orientação em uma lista de regras absolutas.</p>
+
+<p>O resultado é uma mulher que para de comprar borgonha porque "seu subtom é frio" e começa a usar apenas azul-acinzentado em tudo. Ela está <strong>tecnicamente correta</strong>. E visualmente apagada.</p>
+
+<blockquote>A cor certa na pessoa errada continua sendo um look errado. Paleta resolve harmonia. Não resolve proporção, contexto, personalidade.</blockquote>
+
+<h2>O que a análise realmente entrega</h2>
+
+<p>Saber sua estação — seja Inverno Profundo, Primavera Quente, Verão Suave ou qualquer variação dentro desses sistemas — significa entender quais cores trabalham com a sua coloração natural em vez de competir com ela. Isso é informação útil. Mas informação útil tem que ser interpretada, não obedecida cegamente.</p>
+
+<p>Uma Outono que evita vinho para sempre porque "não está na paleta" está ignorando que contraste, iluminação e a peça que está do lado daquela cor fazem tanto trabalho quanto a cor em si. Uma Verão que descartou todo o laranja sem testar cada tonalidade perdeu pelo menos quatro nuances de salmão e terracota que funcionariam perfeitamente.</p>
+
+<h2>A confusão entre o que harmoniza e o que você pode usar</h2>
+
+<p>Há uma diferença entre <strong>a cor que mais ilumina seu rosto</strong> e <strong>as cores que você pode construir no seu guarda-roupa</strong>. A primeira é sobre o que fica próximo ao rosto — gola, decote, lenço, maquiagem. A segunda tem muito mais liberdade.</p>
+
+<p>Calça, sapato, bolsa, casaco — essas peças existem numa distância do seu rosto onde a teoria da paleta perde força rapidamente. Uma Inverno de carteirinha pode usar um trench camel sem nenhum drama. O que ela não deveria fazer é usar esse camel colado no rosto sem nenhuma peça de contraste intermediando. Essa distinção muda tudo. E quase ninguém fala sobre ela.</p>
+
+<h2>O que acontece quando você leva a sério demais</h2>
+
+<p>Você começa a comprar peças que são "da paleta" mas que não têm nada a ver com o seu estilo. O guarda-roupa fica cromaticamente coerente e estilisticamente sem identidade. As roupas combinam entre si. Você não se reconhece nelas.</p>
+
+<p>A coloração pessoal, no melhor cenário, afina a sua relação com cor. Ela não substitui o trabalho de entender o que você quer comunicar, qual é a sua referência estética, onde você está indo quando se veste. Essas perguntas continuam sendo suas.</p>
+
+<h2>Como usar a informação sem ser usada por ela</h2>
+
+<p>Comece pelo rosto. Invista nas cores da sua paleta nas peças que ficam no campo visual de quem está te olhando — blusas, blazers, lenços, o batom. Deixe o restante do guarda-roupa ter mais margem. Use a paleta como filtro de desempate quando você está em dúvida, não como juíza de tudo que você experimenta.</p>
+
+<p>E, principalmente: se uma cor faz você se sentir completamente você — sem precisar de validação de nenhum sistema — essa informação também é válida. Às vezes o que funciona não tem nome de estação.</p>
+
+<p>A análise de coloração é boa. O que ela se tornou nas mãos do conteúdo de massa é outra coisa.</p>
+
+---
+  </div>
+</div>
+
+<section class="nl-artigo" id="newsletter">
+  <div class="nl-badge">The A-List</div>
+  <h2>Para quem define <em>tendência.</em></h2>
+  <p>A newsletter do The Cool Edit. Moda, beleza e comportamento com curadoria.</p>
+  <form class="nl-form" action="https://d0a0bedc.sibforms.com/serve/MUIFAF_DWSEhbf0St_SVDWEwCGDcXnx3YhtrtPhkWdGDgUV7V4n2FOcG9LYEAgZFvp-zJYttYZad54ok-kN50-6tmbdeFGhVrVxa4EaRsqz5VUlsi4mYypwqrsKU5dl7JbjKR1Hn5vcPn1y5MwiEc-BXczeG7agASCJaHKTwvXKlG05AjFlodD0rohKsnuxZWScJN0EOkVKrWueMJA==" method="POST">
+    <input type="email" name="EMAIL" placeholder="seu@email.com" required>
+    <button type="submit">Entrar na lista</button>
+  </form>
+</section>
+
+<footer>
+  <div class="footer-logo">The Cool <em>Edit</em></div>
+  <p class="footer-copy">© 2026 The Cool Edit · por Vic Yohana Mosimann</p>
+</footer>
+
+</body>
+</html>
